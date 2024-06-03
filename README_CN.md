@@ -32,7 +32,7 @@ from IPython.display import Audio
 chat = ChatTTS.Chat()
 chat.load_models(compile=False) # 设置为True以获得更快速度
 
-texts = ["在这里输入你的文本",]
+texts = ["你好我是机器人 但是我笑的很开心 你们有什么问题都可以问我哦！你会使用我我感到很开心 因为你的文化水平真是太低了 会使用我我感到非常惊讶 我还会诱惑人的喘息声 还会撒娇 哈哈~哥哥~",]
 
 wavs = chat.infer(texts, use_decoder=True)
 
